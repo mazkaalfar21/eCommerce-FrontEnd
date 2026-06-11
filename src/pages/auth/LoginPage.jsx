@@ -84,7 +84,7 @@ export default function LoginPage() {
         <div className="bg-dark-200 border border-dark-300 p-3 text-xs text-gray-400 rounded">
           <p className="font-semibold text-gray-300 mb-1">Akun Demo:</p>
           <p>Admin &nbsp;&nbsp;: admin@shoestore.com / admin123</p>
-          <p>Customer: budi@gmail.com / admin123</p>
+          <p>Customer: customer@gmail.com / customer123</p>
         </div>
 
         <button
