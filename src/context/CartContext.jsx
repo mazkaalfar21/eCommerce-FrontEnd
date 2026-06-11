@@ -16,7 +16,7 @@ export const CartProvider = ({ children }) => {
   const getKey = (produkId, ukuranId) => `${produkId}_${ukuranId}`;
 
   const addItem = (produk, qty = 1) => {
-    const ukuranId = produk.selectedUkuran?.id || null;
+    const ukuranId = produk.selectedUkuran?.ukuran_id || null;  // ID dari tabel ukurans (1-8)
     const key = getKey(produk.id, ukuranId);
 
     setItems(prev => {
